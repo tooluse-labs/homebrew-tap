@@ -1,12 +1,12 @@
 # homebrew-tap
 
-Homebrew tap for [perfetto-mcp-rs](https://github.com/0xZOne/perfetto-mcp-rs) — an
+Homebrew tap for [perfetto-mcp-rs](https://github.com/tooluse-labs/perfetto-mcp-rs) — an
 MCP server for Perfetto trace analysis.
 
 ## Install
 
 ```sh
-brew tap 0xZOne/tap
+brew tap tooluse-labs/tap
 brew install perfetto-mcp-rs
 ```
 

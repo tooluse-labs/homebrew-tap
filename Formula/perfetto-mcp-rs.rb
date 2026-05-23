@@ -1,28 +1,28 @@
 class PerfettoMcpRs < Formula
   desc "MCP server for Perfetto trace analysis"
   homepage "https://github.com/tooluse-labs/perfetto-mcp-rs"
-  version "0.15.1"
+  version "0.15.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/tooluse-labs/perfetto-mcp-rs/releases/download/v#{version}/perfetto-mcp-rs-darwin-arm64"
-      sha256 "4d572a08ae906b55d6406ae0a7bc2e57118952dbcee14893ce867ae55c72f722"
+      sha256 "6cb19c2f2444b37806a1887bcb2d1568750adcb19cccff1ba1807787c4c33064"
     end
     on_intel do
       url "https://github.com/tooluse-labs/perfetto-mcp-rs/releases/download/v#{version}/perfetto-mcp-rs-darwin-amd64"
-      sha256 "29206fcfa976fa28a9c139799b9565e2d53aff7ebf181442c3d3233295c7f4c4"
+      sha256 "d6bb3cea6afe90328521d8bf86879d02a6dd3b5754858142ae8f2613d3a95571"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tooluse-labs/perfetto-mcp-rs/releases/download/v#{version}/perfetto-mcp-rs-linux-arm64"
-      sha256 "bbd5b78e4f825c27fbb0fc6162ed9a44eadb8d1c96287f9ce6b358eb326f9c46"
+      sha256 "61ff9930dbed01677667181c642aa07ea53636f5f2c163df325efea97c492114"
     end
     on_intel do
       url "https://github.com/tooluse-labs/perfetto-mcp-rs/releases/download/v#{version}/perfetto-mcp-rs-linux-amd64"
-      sha256 "cdd68c1f3ea3c34c6da499b07139ac9ce366cde24b3bb0f71aff2baf6564ffbd"
+      sha256 "67d6991d9d9c82fed55129911ddc4655c50b4223c860ae7b2c352d65569def8c"
     end
   end
 
